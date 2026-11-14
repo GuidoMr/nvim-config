@@ -5,6 +5,8 @@ vim.opt.shiftwidth = 4
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
 
+vim.opt.syntax = "on"
+
 vim.filetype.add({
     extension = {
         vert = "glsl",
@@ -13,5 +15,12 @@ vim.filetype.add({
         frag = "glsl",
         geom = "glsl",
         comp = "glsl",
+
+	js = "javascript",
+        jsx = "javascriptreact",
+        ts = "typescript",
+        tsx = "typescriptreact",
+        mjs = "javascript",
+        cjs = "javascript",
     },
 })

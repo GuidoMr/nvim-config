@@ -28,6 +28,7 @@ vim.pack.add({
 
     -- Treesitter
     { src = "https://github.com/nvim-treesitter/nvim-treesitter" },
+    { src = "https://github.com/nvim-treesitter/nvim-treesitter-textobjects" },
 
     -- Lualine
     { src = "https://github.com/nvim-lualine/lualine.nvim" },
@@ -44,6 +45,7 @@ vim.pack.add({
     { src = "https://github.com/hrsh7th/cmp-nvim-lsp" },
     { src = "https://github.com/hrsh7th/cmp-buffer" },
     { src = "https://github.com/hrsh7th/cmp-path" },
+    { src = "https://github.com/windwp/nvim-autopairs" },
 
     -- Snippets
     { src = "https://github.com/L3MON4D3/LuaSnip" },
